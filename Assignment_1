@@ -1,4 +1,4 @@
-partB_1
+PART_B_1
 a = [56211,43159,53947,19385]
 for i in range(2):
     t=1
@@ -20,3 +20,12 @@ for i in range(2):
         old_t=t1
     print(old_t)
 
+
+PART_B_2
+a = [39877,31319,39869]
+for i in range(3):
+    b=[1]
+    for j in range(2,a[i]):
+        if(a[i]%j!=0):
+            b.append(j)
+    print(b)    
